@@ -13,7 +13,7 @@
 
 * **Languages:** Java, C++, JavaScript
 * **Web Development:** HTML, CSS, JavaScript
-* **Backend:** Spring Boot, JPA, REST APIs
+* **Backend:** REST APIs
 * **Database:** MySQL, H2 Database
 * **Tools:** Git, GitHub, VS Code
 * **Cloud:** AWS (Learning)
