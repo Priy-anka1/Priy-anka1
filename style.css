@@ -1,10 +1,10 @@
 /* --- CORE VARIABLES (Deep Red & Black Theme) --- */
 :root {
     --bg-main: #ffffff;
-    --bg-card: #16161a;
-    --bg-nav: #1e1e24;
+    --bg-card: #ffffff;
+    --bg-nav: #ffffff;
     --text-primary: #0f0f11;
-    --text-secondary: #94a3b8;
+    --text-secondary:#0f0f11;
     --accent-red: #f43f5e;
     --accent-purple: #818cf8; 
     --accent-dark-red: #be123c;
