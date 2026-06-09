@@ -324,45 +324,50 @@ section {
 
 /* Content Card */
 .exp-content{
-    background: #ffffff;
+    background: linear-gradient(
+         135deg,
+    #7f1d1d 0%,
+    #991b1b 50%,
+    #be123c 100%
+    );
+
+    color: #ffffff;
     padding: 30px;
     border-radius: 18px;
-    border: 1px solid #e5e7eb;
-    box-shadow: 0 10px 30px rgba(0,0,0,0.06);
+    border: 1px solid rgba(255,255,255,0.15);
+
+    box-shadow:
+        0 15px 40px rgba(190,18,60,0.25);
+
     transition: all 0.3s ease;
 }
-
 .exp-content:hover{
     transform: translateY(-8px);
-    border-color: var(--accent-red);
-    box-shadow: 0 15px 40px rgba(244,63,94,0.15);
+    box-shadow:
+        0 25px 50px rgba(190,18,60,0.35);
 }
-
 /* Date */
 .timeline-date{
     font-size: 0.8rem;
-    font-weight: 600;
-    color: var(--accent-red);
-    letter-spacing: 1px;
+    color: #ffd1dc;
+    font-weight: 700;
+    letter-spacing: 2px;
     text-transform: uppercase;
     margin-bottom: 10px;
 }
 
 /* Title */
 .timeline-title{
+    color: #ffffff;
     font-size: 1.6rem;
     font-weight: 700;
-    color: #111827;
-    margin-bottom: 5px;
 }
-
 /* Company */
 .timeline-company{
-    color: var(--accent-red);
+    color: #ffd1dc;
     font-weight: 600;
     margin-bottom: 20px;
 }
-
 /* List */
 .timeline-list{
     list-style: none;
@@ -372,7 +377,7 @@ section {
 .timeline-list li{
     position: relative;
     padding-left: 22px;
-    color: #4b5563;
+    color: rgba(255,255,255,0.9);
     margin-bottom: 12px;
     line-height: 1.7;
 }
@@ -394,12 +399,12 @@ section {
 
 .tag-outline{
     padding: 6px 14px;
-    border: 1px solid var(--accent-red);
-    color: var(--accent-red);
-    border-radius: 30px;
     font-size: 0.8rem;
     font-weight: 500;
-    background: rgba(244,63,94,0.05);
+    background: rgba(255,255,255,0.12);
+    border: 1px solid rgba(255,255,255,0.3);
+    color: #ffffff;
+    border-radius: 30px;
 }
 
 /* Images */
