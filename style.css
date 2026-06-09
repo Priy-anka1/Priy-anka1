@@ -302,13 +302,29 @@ section {
 .timeline-item:nth-child(even) .timeline-dot { left: -8px; }
 
 .timeline-content {
-    background: #ffffff;
+    background: var(--bg-card); /* Soft tinted background */
     color: var(--text-primary);
-    box-shadow: 0 5px 20px rgba(190, 18, 60, 0.08);
+    box-shadow: 0 5px 20px rgba(190, 18, 60, 0.05); /* Softer shadow */
     border: 1px solid var(--border-color);
     border-radius: 12px;
     padding: 30px;
     transition: all 0.3s ease;
+}
+
+.timeline-title {
+    font-size: 1.4rem;
+    font-weight: 800;
+    color: var(--text-primary); /* Deep burgundy for high contrast */
+    margin-bottom: 5px;
+}
+
+.timeline-list li {
+    position: relative;
+    padding-left: 18px;
+    font-size: 0.95rem;
+    color: #4c1d28; /* A darker, highly readable maroon for body text */
+    margin-bottom: 10px;
+    line-height: 1.5;
 }
 
 .timeline-content:hover {
@@ -325,12 +341,7 @@ section {
     text-transform: uppercase;
 }
 
-.timeline-title {
-    font-size: 1.4rem;
-    font-weight: 700;
-    color: var(--text-primary);
-    margin-bottom: 2px;
-}
+
 
 .timeline-company {
     font-family: 'Space Mono', monospace;
@@ -344,13 +355,7 @@ section {
     margin-bottom: 20px;
 }
 
-.timeline-list li {
-    position: relative;
-    padding-left: 15px;
-    font-size: 0.95rem;
-    color: var(--text-secondary);
-    margin-bottom: 8px;
-}
+
 
 .timeline-list li::before {
     content: "▹";
