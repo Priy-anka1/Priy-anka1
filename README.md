@@ -4,17 +4,16 @@
 
 ## About Me
 
-* 🌱 Currently learning Cloud Computing, Spring Boot, and Data Structures & Algorithms
 * 💻 Interested in Web Development, Backend Development, and Cloud Technologies
 * 🏢 Currently working as an Intern at PDCOR Ltd.
 * 🚀 Passionate about building scalable and impactful software solutions
 
 ## Technical Skills
 
-* **Languages:** Java, C++, JavaScript
+* **Languages:** C, C++, Python
 * **Web Development:** HTML, CSS, JavaScript
 * **Backend:** REST APIs
-* **Database:** MySQL, H2 Database
+* **Database:** MySQL
 * **Tools:** Git, GitHub, VS Code
 * **Cloud:** AWS (Learning)
 
